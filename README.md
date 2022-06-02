@@ -11,5 +11,6 @@ wget --output-document sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/s
 # configuration
 unzip the tar.gz file
 tar -xf archive.tar.gz
-vdb-config -i
+cd sratoolkit.3.0.0-ubuntu64/bin
+vdb-config vdb-config.3.0.0
 

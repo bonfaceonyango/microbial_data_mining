@@ -7,10 +7,10 @@ Run accessions are used to download SRA data.
 # Download SRA toolkit 
 version 3.0.0
 # Installing SRA toolkit
-wget --output-document sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+```wget --output-document sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz```
 # configuration
 unzip the tar.gz file
-tar -xf archive.tar.gz
-cd sratoolkit.3.0.0-ubuntu64/bin
-vdb-config vdb-config.3.0.0
+```tar -xf archive.tar.gz```
+```cd sratoolkit.3.0.0-ubuntu64/bin```
+```vdb-config vdb-config.3.0.0```
 
